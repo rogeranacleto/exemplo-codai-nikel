@@ -1,0 +1,129 @@
+#login{
+    background: linear-gradient(120deg, #4C79D3 44.9%, #ffffff 45%) no-repeat fixed;
+}
+
+#app{
+    background: linear-gradient(120deg, #ffffff 44.9%, #4C79D3 45%) no-repeat fixed;
+}
+
+header{
+    border-bottom: 1px solid #bebcbcbc;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.color-primary{
+    color: #4e0070;
+}
+
+.color-secondary{
+    color: #4C79D3;
+}
+
+.icon-detail{
+ font-size: 50px;
+ margin-right: 10px; 
+ vertical-align: middle;  
+}
+
+.text-login{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button-default{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: #ffffff;
+}
+
+.table-transactions{
+    border-bottom: 3px solid #000;
+}
+.coins{
+    position: absolute;
+    bottom: 220px;
+}
+
+.button-login{
+    border-radius: 10px;
+    background-color: #4e0070;
+    color: #ffffff;
+    width: 50%;
+    margin: 0 25%;
+}
+.button-login:hover, .button-default:hover{
+    background-color: #4C79D3;
+    color: #ffffff;
+}
+
+.link-default{
+    color: #4e0070;
+    cursor: pointer;
+}
+
+.button-cancel{
+    border-radius: 10px;
+}
+.button-float{
+    border-radius: 100%;
+    height: 60px;
+    position: fixed;
+    padding: 0 10px !important;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 35px;
+    background-color: #4e0070;
+    border: 2px solid #4e0070;
+    color: #ffffff;
+}
+
+.button-float:hover{
+    border: 2px solid #4C79D3;
+    background-color: #ffffff;
+    color: #4C79D3;
+}
+
+.link-default:hover{
+    color: #4C79D3;
+}
+
+.info{
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 15px 0px;
+}
+
+.logout{
+    min-width: 5rem !important;
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.item-table{
+    transition: 0.3s ease-in-out;
+}
+.item-table:hover{
+    background-color: #bebcbc67;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.button{
+    border: 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.button-delete:hover{
+    color: #ff0000;
+    transition: 0.3s ease-in-out;
+    scale: 1.2;
+}
+
+.main-container{
+    margin-bottom: 20px;
+}
